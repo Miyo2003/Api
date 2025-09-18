@@ -15,4 +15,4 @@ def get_hello():
     return HelloResponse(message="Hello World")
 
 # You can run this app with:
-# uvicorn app.main:app --reload
+# uvicorn main:app --reload
